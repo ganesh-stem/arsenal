@@ -1,3 +1,7 @@
+import numpy as np
+import random
+import pandas as pd
+
 class NoiseOversampler:
     def __init__(self, degree=0.001, amplify=2, cat_val_threshold=0.06):
         self.degree = degree
